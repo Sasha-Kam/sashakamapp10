@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Команда Pie Queens</string>
+    <string name="welcome_text">Мы Pie Queens! Давай с нами.</string>
+    <string name="hello">Привет!</string>
+    <string name="app_desc_text">This is your guide in Icelandic music</string>
+    <string name="listen_on_spotify">Listen on Spotify</string>
+    <string name="who_we_are">Кто мы</string>
+    <string name="what_we_dance">Что мы танцуем</string>
+    <string name="join_us">Приходи</string>
+</resources>

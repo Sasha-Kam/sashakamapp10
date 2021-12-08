@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Sashakamapp10" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/button_Color</item>
+        <item name="colorPrimaryVariant">#2A59E6</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/button_Color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="background">@color/backgroundBlue</item>
+        <item name="android:button">@style/Theme.Sashakamap10.Button</item>
+
+    </style>
+
+    <style name ="Theme.Sashakamapp10.HeaderTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">italic</item>
+
+    </style>
+
+    <style name="Theme.Sashakamapp10.mainCopyTextView" parent="Theme.Sashakamapp10.HeaderTextView">
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="Theme.Sashakamap10.Button" parent="Widget.MaterialComponents.Button">
+        <item name="color">@color/button_Color</item>
+        <item name="android:textColor">@color/white</item>
+
+
+    </style>
+
+
+</resources>

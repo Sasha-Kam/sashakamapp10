@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Bjork">
+
+
+    <ImageView
+        android:id="@+id/imageView_Bjork"
+        android:layout_width="352dp"
+        android:layout_height="276dp"
+
+        android:layout_marginBottom="148dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bjork" />
+
+    <Button
+        android:id="@+id/listen_bjork_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/listen_on_spotify"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Bjork" />
+
+    <TextView
+        style="@style/Theme.Sashakamapp10.mainCopyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/welcome_text"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_Bjork"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
